@@ -1,0 +1,210 @@
+/* значения взяты из фигмы, ширина макета 1920px */
+
+body {
+  margin: 0;
+  background: #000000;
+  color: #ffffff;
+  font-family: "IBM Plex Mono";
+  font-style: normal;
+}
+
+p,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 1920px;
+  margin: 0 auto;
+}
+
+/* шапка */
+.header {
+  position: relative;
+  height: 2399px;
+  background-image: url("images/header.png");
+}
+
+.header-title {
+  position: absolute;
+  width: 100%;
+  top: 526px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 200px;
+  line-height: 260px;
+  color: #ffffff;
+}
+
+.about-title {
+  position: absolute;
+  left: 638px;
+  top: 1397px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.about-text {
+  position: absolute;
+  width: 885px;
+  left: 115px;
+  top: 1770px;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #ffffff;
+}
+
+/* розовый блок mono */
+.mono {
+  position: relative;
+  height: 1199px;
+  background-image: url("images/mono.png");
+}
+
+.mono-text {
+  position: absolute;
+  left: 108px;
+  top: 107px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  color: #ff3db1;
+}
+
+/* заголовки на розовых плашках */
+.block-title {
+  position: absolute;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+/* начертания */
+.styles {
+  position: relative;
+  height: 1662px;
+  background-image: url("images/styles.png");
+}
+
+.styles-title {
+  left: 132px;
+  top: 110px;
+}
+
+.styles-list li {
+  position: absolute;
+  left: 75px;
+  font-size: 150px;
+  line-height: 195px;
+  color: #ff3db1;
+}
+
+.thin {
+  top: 283px;
+  font-weight: 100;
+}
+
+.extralight {
+  top: 471px;
+  font-weight: 200;
+}
+
+.light {
+  top: 658px;
+  font-weight: 300;
+}
+
+.regular {
+  top: 846px;
+  font-weight: 400;
+}
+
+.medium {
+  top: 1034px;
+  font-weight: 500;
+}
+
+.semibold {
+  top: 1207px;
+  font-weight: 600;
+}
+
+.bold {
+  top: 1381px;
+  font-weight: 700;
+}
+
+/* особенности */
+.features {
+  position: relative;
+  height: 1040px;
+  background-image: url("images/features.png");
+}
+
+.features-title {
+  left: 155px;
+  top: 119px;
+}
+
+/* языки */
+.languages {
+  position: relative;
+  height: 1469px;
+  background-image: url("images/languages.png");
+}
+
+.languages-title {
+  left: 105px;
+  top: 106px;
+}
+
+.languages-list {
+  position: absolute;
+  left: 348px;
+  top: 359px;
+  display: flex;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 156px;
+  color: #ff3db1;
+  white-space: nowrap;
+}
+
+.languages-left {
+  width: 726px;
+}
+
+/* подвал */
+.footer {
+  height: 276px;
+  padding: 59px 51px 0;
+  background: #ff3db1;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #000000;
+}
+
+.footer p {
+  margin-bottom: 18px;
+}
+
+.footer-left {
+  display: inline-block;
+  width: 501px;
+  color: #ffffff;
+}
+
+.footer-second {
+  margin-left: 70px;
+}
